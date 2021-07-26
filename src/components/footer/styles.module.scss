@@ -1,0 +1,24 @@
+.footer {
+  background-color: black;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .left {
+    margin-left: 10vw;
+  }
+  .right {
+    margin-right: 10vw;
+    p {
+      font-size: 15px;
+      color: white;
+      font-weight: 500;
+    }
+    @media (max-width: 600px) {
+      display: none;
+    }
+  }
+  @media (max-width: 600px) {
+    justify-content: center;
+  }
+}
